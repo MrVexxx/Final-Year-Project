@@ -1,0 +1,30 @@
+.container-fluid{
+    background-color: #d1d1d1;
+}
+.text h1{
+    padding-top: 10px;
+    color: purple;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container .service{
+    display: flex;
+    padding: 0 10px;
+    margin: 0 10px;
+   
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image a{
+    color: white;
+}
+.image a:hover{
+    color: blue;
+    transition: 4sec;
+}
